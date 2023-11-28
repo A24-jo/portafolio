@@ -9,7 +9,7 @@ export default function Contact() {
         <section id="contact" className="flex items-center justify-center  p-4">
             <div className="z-10 p-6">
                 <h5 className="text-xl font-bold text-white my-2  2xl:text-3xl">
-                    Let's Connect
+                Conectemos
                 </h5>
                 <p className="text-[#ADB7BE] 2xl:text-xl mb-4 ">
                     "Te invito a explorar mi portafolio, donde podrás obtener una visión detallada de mi experiencia, habilidades y proyectos destacados. Estoy siempre abierto a nuevas oportunidades y valoro la colaboración profesional.
