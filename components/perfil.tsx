@@ -17,7 +17,7 @@ export default function Perfil() {
                     </h1>
                     <div className="text-slate-50">
                         <p className="text-slate-50">
-                            Convertir ideas en experiencias digitales cautivadoras con pasión y precisión.
+                        Convierto ideas en experiencias digitales cautivadoras con pasión y precisión. Mi enfoque combina creatividad, funcionalidad y atención al usuario para lograr resultados excepcionales. Estoy listo para abordar nuevos desafíos y crear soluciones digitales impactantes.
                         </p>
                         <p className="text-slate-50">
                             ¡Demos vida a tus ideas!
@@ -25,10 +25,10 @@ export default function Perfil() {
                     </div>
                     <div className="flex space-x-4 mt-5">
                         <button className="text-white px-5 py-3 rounded-full border-4  text-lg border-green-500">
-                            contact me
+                        contáctame
                         </button>
                         <button className="text-white px-5 py-3  rounded-full border-4  text-lg border-green-500">
-                            download cv
+                        descargar currículum
                         </button>
                     </div>
                 </div>

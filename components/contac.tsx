@@ -6,28 +6,32 @@ import { PiGithubLogoFill } from "react-icons/pi";
 
 export default function Contact() {
     return (
-        <section id="contact" className="grid md:grid-cols-2  py-24 gap-4 relative">
+        <section id="contact" className="flex items-center justify-center  p-4">
             <div className="z-10 p-6">
                 <h5 className="text-xl font-bold text-white my-2  2xl:text-3xl">
                     Let's Connect
                 </h5>
-                <p className="text-[#ADB7BE] 2xl:text-xl mb-4 max-w-md">
-                    I'm always looking for new opportunities and my inbox is always open whether you have a question or just want to say hi. I'll try my best to get back to you!
+                <p className="text-[#ADB7BE] 2xl:text-xl mb-4 ">
+                    "Te invito a explorar mi portafolio, donde podrás obtener una visión detallada de mi experiencia, habilidades y proyectos destacados. Estoy siempre abierto a nuevas oportunidades y valoro la colaboración profesional.
+
+                    Si deseas discutir posibles colaboraciones, proyectos interesantes o simplemente quieres establecer contacto, puedes encontrarme en mi portafolio, así como a través de plataformas como Git, LinkedIn y WhatsApp. Mi compromiso es responder de manera pronta y constructiva.
+
+                    ¡Aprecio tu interés y estoy ansioso por conectar contigo! No dudes en enviarme un mensaje a través de cualquiera de estas plataformas para iniciar una conversación significativa. ¡Hagamos cosas increíbles juntos!"
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <a href="https://github.com/A24-jo/mychat" >
-                        <PiGithubLogoFill size="30px" className="text-slate-50 hover:text-[#3fcb7c]" />
+                        <PiGithubLogoFill size="40px" className="text-slate-50 hover:text-[#3fcb7c]" />
                     </a>
                     <a href="https://wa.me/+51922595604" >
-                        <IoLogoWhatsapp size="30px" className="text-slate-50 hover:text-[#3fcb7c] " />
+                        <IoLogoWhatsapp size="40px" className="text-slate-50 hover:text-[#3fcb7c] " />
                     </a>
                     <a href="https://www.linkedin.com/in/24bravo-ramos/">
-                        <GrLinkedin size="30px" className="text-slate-50 hover:text-[#3fcb7c] " />
+                        <GrLinkedin size="40px" className="text-slate-50 hover:text-[#3fcb7c] " />
                     </a>
                 </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center  dark">
+            {/*  <div className="flex flex-col items-center justify-center  dark">
                 <div className="w-full max-w-md rounded-lg shadow-md p-6">
                     <form className="flex flex-col">
 
@@ -44,7 +48,7 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-
+ */}
         </section>
     )
 }

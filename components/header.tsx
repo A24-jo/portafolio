@@ -31,17 +31,17 @@ export default function Header() {
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         <li>
                             <button className="relative font-medium -top-1 -left-1 hover:top-0 hover:left-0 transition-all bg-[#181818] py-2.5 px-5 uppercase text-[#ADB7BE] hover:text-white before:content-[''] before:absolute before:top-1 before:left-1 before:hover:top-0 before:hover:left-0 before:w-full before:h-full before:border-2 before:hover:border-[#181818] before:border-[#3fcb7c] before:-z-10 before:transition-all before:rounded-full rounded-full ">
-                                 ABAUT
+                                 ACERCA DE
                             </button>
                         </li>
                         <li>
                             <button className="relative font-medium -top-1 -left-1 hover:top-0 hover:left-0 transition-all bg-[#181818] py-2.5 px-5 uppercase text-[#ADB7BE] hover:text-white before:content-[''] before:absolute before:top-1 before:left-1 before:hover:top-0 before:hover:left-0 before:w-full before:h-full before:border-2 before:hover:border-[#181818] before:border-[#3fcb7c] before:-z-10 before:transition-all before:rounded-full rounded-full ">
-                                PROJECTS
+                                PROYECTOS
                             </button>    
                         </li>
                         <li>
                             <button className="relative font-medium -top-1 -left-1 hover:top-0 hover:left-0 transition-all bg-[#181818] py-2.5 px-5 uppercase text-[#ADB7BE] hover:text-white before:content-[''] before:absolute before:top-1 before:left-1 before:hover:top-0 before:hover:left-0 before:w-full before:h-full before:border-2 before:hover:border-[#181818] before:border-[#3fcb7c] before:-z-10 before:transition-all before:rounded-full rounded-full ">
-                                CONTACT
+                                CONTACTO
                             </button>
                         </li>
                     </ul>
@@ -50,17 +50,17 @@ export default function Header() {
             {mobile && <ul className=" flex flex-col items-center">
                 <li>
                     <button onClick={() => setMobile(false)} className="block py-2 pl-3 pr-4 uppercase text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white">
-                        ABAUT
+                    ACERCA DE
                     </button>
                 </li>
                 <li>
                     <button onClick={() => setMobile(false)} className="block py-2 pl-3 pr-4 uppercase text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white">
-                        PROJECTS
+                    PROYECTOS
                     </button>
                 </li>
                 <li>
                     <button onClick={() => setMobile(false)} className="block py-2 pl-3 pr-4 uppercase text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white">
-                        CONTACT
+                    CONTACTO
                     </button>
                 </li>
             </ul>}

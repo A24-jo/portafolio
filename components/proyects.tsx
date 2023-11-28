@@ -23,11 +23,11 @@ export default function Proyectos() {
     return (
         <section id="projects" className="2xl:pt-12">
             <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 lg:mb-12">
-                My Projects
+            Mis proyectos
             </h2>
             <div className="text-[#ADB7BE] flex flex-row justify-center items-center gap-2 py-6">
                 <button className="text-white border-[#3fcb7c] rounded-full border-2 px-6 py-3 text-xl" 
-                    onClick={()=>setData(myProjects)}>All</button>
+                    onClick={()=>setData(myProjects)}>Todo</button>
                 <button  className="text-white border-[#3fcb7c] rounded-full border-2 px-6 py-3 text-xl"
                     onClick={()=>setData(Personal)}>Personal</button>
             </div>

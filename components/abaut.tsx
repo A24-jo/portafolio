@@ -14,24 +14,25 @@ export default function Abaut() {
 
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full bg-[#181818] rounded-lg p-4 2xl:p-8 2xl:w-full 2xl:h-full">
                     <h2 className="text-4xl font-bold text-white mb-4 2xl:text-6xl">
-                        About Me
+                    Acerca de mí
                     </h2>
                     <p className=" text-slate-100 text-base md:text-m 2xl:text-xl 2xl:mb-2">
-                        I'm Valentín, Dedicated Full Stack Web Developer boasting 2 years of practical experience in Node.js, React, Next.js, Nest.js, ExpressJs, and Databases, with Demonstrated success in developing efficient web applications and designing robust RESTful APIs.
+
+                        Soy Jose Bravo, un apasionado desarrollador web Full Stack con un año de experiencia práctica en tecnologías como Node.js, React, Next.js, ExpressJs, y bases de datos. He demostrado éxito en la creación de aplicaciones web eficientes y en el diseño de API RESTful robustas. Estoy comprometido con la excelencia técnica y siempre busco superar los desafíos para ofrecer soluciones de alta calidad.
                     </p>
                     <div className="flex flex-row mt-8 lg:justify-start justify-center 2xl:text-2xl">
                         <button onClick={() => setData(1)} className="mr-3 font-semibold hover:text-white text-white">
-                            SKILLS
+                            HABILIDADES
                             {data === 1 ? <div className="h-0.5 bg-[#3fcb7c] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div> :
                                 <div className="h-0.5 bg-[#181818] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div>}
                         </button>
                         <button onClick={() => setData(2)} className="mr-3 font-semibold hover:text-white text-white">
-                            EXPERIENCE
+                            EXPERIENCIA
                             {data === 2 ? <div className="h-0.5 bg-[#3fcb7c] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div> :
                                 <div className="h-0.5 bg-[#181818] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div>}
                         </button>
                         <button onClick={() => setData(3)} className="mr-3 font-semibold hover:text-white text-white">
-                            EDUCATION
+                            EDUCACION
                             {data === 3 ? <div className="h-0.5 bg-[#3fcb7c] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div> :
                                 <div className="h-0.5 bg-[#181818] mt-1 mr-3" style={{ width: "calc(100% - 0.75rem)" }}></div>}
                         </button>
@@ -181,11 +182,11 @@ export default function Abaut() {
                         <p className='text-slate-100'>actualmente en produccion</p>
                     </div>}
                     {data === 3 && <div className='mt-4'>
-                      <p className='text-white '>
-                      <span className="font-extrabold  bg-clip-text gradient-background text-[#3fcb7c]"> . </span>
-                        Cursando la carrera de Ing sistemas</p>
-                      <p className='text-white '>en la Universidad Tecnológica Perú - UTP</p>   
-                        </div>}
+                        <p className='text-white '>
+                            <span className="font-extrabold  bg-clip-text gradient-background text-[#3fcb7c]"> . </span>
+                            Cursando la carrera de Ing sistemas</p>
+                        <p className='text-white '>en la Universidad Tecnológica Perú - UTP</p>
+                    </div>}
                 </div>
             </div>
         </section>
