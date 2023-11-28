@@ -21,7 +21,7 @@ export default function Contact() {
                     <a href="https://wa.me/+51922595604" >
                         <IoLogoWhatsapp size="30px" className="text-slate-50 hover:text-[#3fcb7c] " />
                     </a>
-                    <a href="https://wa.me/+51922595604">
+                    <a href="https://www.linkedin.com/in/24bravo-ramos/">
                         <GrLinkedin size="30px" className="text-slate-50 hover:text-[#3fcb7c] " />
                     </a>
                 </div>
