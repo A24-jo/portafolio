@@ -8,14 +8,14 @@ import { useState } from "react";
 export default function Proyectos() {
 
     const myProjects = [
-        { imagen: "url('/miperfil.png')", name: "NextJs Portfolio", description: "My 2023 Portfolio built with NextJs", github: "https://github.com/A24-jo", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
+        { imagen: "url('/miperfil.png')", name: "NextJs Portfolio", description: "My 2023 Portfolio built with NextJs", github: "https://github.com/A24-jo/portafolio", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
         { imagen: "url('/worflow.png')", name: "ERM workflow", description: "My 2023 workflow built with react", github: "https://github.com/A24-jo", linkProyectos: "https://workflow-pf.vercel.app/" },
         { imagen: "url('/dog.png')", name: "dog list", description: "My 2023 dog list built with react", github: "https://github.com/A24-jo/PI-Dogs-main-client", linkProyectos: "https://pi-dogs-main-client-1xr5-pyhs3d8m7-a24-jo.vercel.app/" },
         { imagen: "url('/chat.png')", name: "NextJs chat", description: "My 2023 chat built with NextJs", github: "https://github.com/A24-jo/mychat", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
     ];
 
     const Personal = [
-        { imagen: "url('/chat.png')", name: "NextJs chat", description: "My 2023 chat built with NextJs", github: "https://github.com/A24-jo/mychat", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
+        { imagen: "url('/chat.png')", name: "NextJs chat", description: "My 2023 chat built with NextJs", github: "https://github.com/A24-jo/portafolio", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
         { imagen: "url('/miperfil.png')", name: "NextJs Portfolio", description: "My 2023 Portfolio built with NextJs", github: "https://github.com/A24-jo", linkProyectos: "https://mychat-woad-nine.vercel.app/" },
     ]
     const [data, setData] = useState(myProjects);
